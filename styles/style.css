@@ -1,12 +1,12 @@
 /* место для вашего кода */
 header .header {
-    height: 293px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
-    margin-top: 27px;
-    margin-bottom: 30px;
-    list-style-type: none;
+  height: 293px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin-top: 27px;
+  margin-bottom: 30px;
+  list-style-type: none;
 }
 
 .lots__card-list-item {
@@ -84,24 +84,24 @@ header .header {
 
 
 .about {
-    min-height: 595px;
-    margin-top: 120px;
-    padding: 0 24px;
-    position: relative;
+  min-height: 595px;
+  margin-top: 120px;
+  padding: 0 24px;
+  position: relative;
 }
 
 
 
 .about__logo {
-    position: absolute;
-    top: 35px;
-    left: 47px;
-    display: flex;
-    align-items: center;
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    background-color: #000000;
+  position: absolute;
+  top: 35px;
+  left: 47px;
+  display: flex;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000000;
 }
 
 .about__logo-image {
@@ -173,10 +173,10 @@ header .header {
 }
 
 .footer__social-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 48px;
-    list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
+  list-style-type: none;
 }
 
 .footer__social-icon {
