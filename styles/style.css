@@ -4,7 +4,10 @@
   grid-template-columns: 1fr min-content 1fr; 
   align-items: center; 
   box-sizing: border-box;
-  min-height: 293px; 
+  min-height: 293px;
+
+
+
 }
 
 .header_menu ul {
@@ -18,23 +21,33 @@
   text-underline-position: from-font;
   list-style: circle;
   padding-left: 50px; 
+
+
 }
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
+
+
 }
 
 .header__links-list-item_no-bullit a {
   text-decoration: none;
+
+
 }
 
 .header_logo {
   width: 148px;
   opacity: 100%; 
+
+
 }
 
 .header_logo-image {
   padding: 7px 7px;
+
+
 }
 
 .address {
@@ -46,15 +59,21 @@
   line-height: 24.3px;
   text-decoration-skip-ink: none;
   text-underline-position: from-font; 
+
+
 }
 
 .address.header__address {
   justify-self: end;
   text-align: left;
+
+
 }
 
 .address.header__address a {
   color: #000000;
+
+
 }
 
 /* ------------------------------------------------------ */
@@ -68,6 +87,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
+
+
 }
 
 .cover_title {
@@ -81,23 +102,33 @@
   text-underline-position: from-font;
   text-transform: uppercase;
   letter-spacing: 0.3em; 
+
+
 }
 
 
 .accent-span {
   display: block;
+
+
 }
 
 .aligned-text_center {
   text-align: center; 
+
+
 }
 
 .aligned-text_right {
   text-align: right; 
+
+
 }
 
 .cover__description {
  padding: 106px 50px 0; 
+
+
 }
 
 .cover__description-text {
@@ -111,6 +142,8 @@
   text-underline-position: from-font;
   text-transform: uppercase;
   word-spacing: 20px; 
+
+
 }
 
 .bet-button {
@@ -130,17 +163,23 @@
   position: absolute;
   bottom: 60px;
   right: 50px;
+
+
 }
 
 .bet-button:hover {
   transition: 0.4s;
   cursor: pointer;
   scale: 1.09; 
+
+
 }
 
 .bet-button:active {
   opacity: 0.3;
   scale: 0.99; 
+
+
 }
 
 .overlay {
@@ -151,6 +190,8 @@
   height: 100%;
   opacity: 0.6;
   background-color: #000000;
+
+
 }
 
 /* ----------------------------------------------------- */
@@ -158,6 +199,8 @@
 .lots {
   margin-top: 180px;
   padding: 0 24px; 
+
+
 }
 
 .lots__heading {
@@ -169,6 +212,8 @@
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase; 
+
+
 }
 
 .lots__card-list {
@@ -178,15 +223,21 @@
   margin-top: 27px;
   margin-bottom: 30px;
   list-style-type: none;
+
+
 }
 
 .lots__card-list-item {
   width: 334px;
   min-height: 596px; 
+
+
 }
 
 .card-link {
   text-decoration: none; 
+
+
 }
 
 .lot_content {
@@ -196,6 +247,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%; 
+
+
 }
 
 .card__title {
@@ -211,6 +264,8 @@
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase; 
+
+
 }
 
 .card__text {
@@ -221,6 +276,8 @@
   font-size: 20px;
   line-height: 24px;
   text-align: left; 
+
+
 }
 
 .lots__look-more-link {
@@ -231,6 +288,8 @@
   font-size: 20px;
   line-height: 23.48px;
   text-underline-position: from-font; 
+
+
 }
 
 /* Фоновые изображения */
@@ -239,18 +298,24 @@
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
   background-position: bottom; 
+
+
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
   background-position: bottom; 
+
+
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
   background-position: bottom; 
+
+
 }
 
 
@@ -259,6 +324,8 @@
   margin-top: 120px;
   padding: 0 24px;
   position: relative;
+
+
 }
 
 
@@ -273,10 +340,14 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000000;
+
+
 }
 
 .about__logo-image {
   padding: 50px 50px; 
+
+
 }
 
 .about__title {
@@ -289,12 +360,16 @@
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase; 
+
+
 }
 
 .about_box {
   justify-self: end;
   width: 693px;
   padding-top: 133px; 
+
+
 }
 
 .about__text {
@@ -306,10 +381,14 @@
   text-align: left;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
+
+
 }
 
 .about_text-bottom {
   margin-bottom: 0; 
+
+
 }
 
 
@@ -329,18 +408,26 @@
   line-height: 21.13px;
   text-decoration-skip-ink: none;
   text-underline-position: from-font; 
+
+
 }
 
 .footer__menu-list {
   text-align: center; 
+
+
 }
 
 .footer__menu-list-item {
   list-style-type: none; 
+
+
 }
 
 .footer__menu-link_active a {
   text-decoration: none; 
+
+
 }
 
 .footer__social-list {
@@ -348,16 +435,24 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 48px;
   list-style-type: none;
+
+
 }
 
 .footer__social-icon {
   height:48px; 
+
+
 }
 
 .address.footer__address {
   justify-self: start;
   text-align: left; 
+
+
 }
 .address.footer__address a {
   color: #000000; 
+
+
 }
